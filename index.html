@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="static/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/flexboxgrid2@7.2.1/flexboxgrid2.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="icon" type="image/x-icon" href="static/images/icon.png" sizes="256x256"> 
     <title>Шоколад «Бабевский» с карамельным криспи и кешью, 100 г купить в интернет-магазине "Алёнка"</title>
@@ -74,12 +75,18 @@
             </div>
             <div class="cart_favorite">
                 <div class="header_favorite">
-                    <a href="#"><img src="static/images/favorite.svg" width="20px" height="20px"></a>
+                    <a href="#"><svg xmlns="http://www.w3.org/2000/svg" id="favorite_header" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                        <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"/>
+                      </svg></a>
                 </div>
                 <div class="header_cart">
-                    <a href="#"><img src="static/images/cart-plus.svg" width="19px" height="19px"></a>
+                    <a href="#"><svg xmlns="http://www.w3.org/2000/svg" id="cart_header" width="16" height="16" fill="currentColor" class="bi bi-cart-plus" viewBox="0 0 16 16">
+                        <path d="M9 5.5a.5.5 0 0 0-1 0V7H6.5a.5.5 0 0 0 0 1H8v1.5a.5.5 0 0 0 1 0V8h1.5a.5.5 0 0 0 0-1H9z"/>
+                        <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1zm3.915 10L3.102 4h10.796l-1.313 7zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0m7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0"/>
+                      </svg></a>
+                </div>
             </div>
-            </div>
+        </div>
     </div>
 
     <div class="post_header">
@@ -109,68 +116,81 @@
 </header>
 
 <main class="main_content">
+    <nav class="breadcrumbs"> 
+        <ul class="breadcrumbs_list" itemtype="https://schema.org/BreadcrumbList">
+            <li class="breadcrumbs_item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <a class="breadcrumbs_link" itemprop="item" href="#">
+                    <span itemprop="name">Главная</span>
+                </a>
+                <meta itemprop="position" content="1" />
+            </li>
+
+            <li class="breadcrumbs_item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <a class="breadcrumbs_link" itemprop="item" href="#">
+                    <span itemprop="name">Каталог</span>
+                </a>
+                <meta itemprop="position" content="2" />
+            </li>
+
+            <li class="breadcrumbs_item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <a class="breadcrumbs_link" itemprop="item" href="#">
+                    <span itemprop="name">Шоколад</span>
+                </a>
+                <meta itemprop="position" content="2" />
+            </li>
+            <li class="breadcrumbs_item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <a class="breadcrumbs_link" itemprop="item" href="#">
+                    <span itemprop="name">Темный шоколад</span>
+                </a>
+                <meta itemprop="position" content="2" />
+            </li>
+            <li class="breadcrumbs_item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <a class="breadcrumbs_link" itemprop="item" href="#">
+                    <span itemprop="name">Шоколад «Бабаевский» с карамельным криспи и кешью, 100 г</span>
+                </a>
+                <meta itemprop="position" content="2" />
+            </li>
+        </ul>
+    </nav>
     <div class="container">
-        <nav class="breadcrumbs"> 
-            <ul class="breadcrumbs_list" itemtype="https://schema.org/BreadcrumbList">
-                <li class="breadcrumbs_item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-                    <a class="breadcrumbs_link" itemprop="item" href="#">
-                        <span itemprop="name">Главная</span>
-                    </a>
-                    <meta itemprop="position" content="1" />
-                </li>
-
-                <li class="breadcrumbs_item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-                    <a class="breadcrumbs_link" itemprop="item" href="#">
-                        <span itemprop="name">Каталог</span>
-                    </a>
-                    <meta itemprop="position" content="2" />
-                </li>
-
-                <li class="breadcrumbs_item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-                    <a class="breadcrumbs_link" itemprop="item" href="#">
-                        <span itemprop="name">Шоколад</span>
-                    </a>
-                    <meta itemprop="position" content="2" />
-                </li>
-                <li class="breadcrumbs_item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-                    <a class="breadcrumbs_link" itemprop="item" href="#">
-                        <span itemprop="name">Темный шоколад</span>
-                    </a>
-                    <meta itemprop="position" content="2" />
-                </li>
-                <li class="breadcrumbs_item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-                    <a class="breadcrumbs_link" itemprop="item" href="#">
-                        <span itemprop="name">Шоколад «Бабаевский» с карамельным криспи и кешью, 100 г</span>
-                    </a>
-                    <meta itemprop="position" content="2" />
-                </li>
-            </ul>
-        </nav>
         <div class="product_info">
             <div class="image_product">
                 <div class="badger_favorite">
                     <div class="badger_product">
-                        <a href="#"><img src="static/images/coffe_beam.png" width="40px" height="40px" alt="Иконка кофе" title="Экстремальная свежесть"></a>
+                        <span class="tooltip">
+                            <button class="tooltip_tog" type="button">
+                                <div class="icon_questions">
+                                    <a href="#"><img src="static/images/coffe_beam.png" width="40px" height="40px" alt="Иконка кофе"></a>
+                                </div>
+                            </button>
+                            <span class="tooltip_text">Экстремальная свежесть</span>
+                        </span>
                     </div>
                     <div class="favorite_product">
-                        <a href="#"><img src="static/images/favorite.svg" width="40px" height="40px"></a>
+                        <a href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" id="favorite_image" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                                <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"/>
+                              </svg>
+                        </a>
                     </div>
                 </div>
                 <div class="main_image_product">
-                    <a href="static/images/choco.jpg"><img src="static/images/choco.jpg" width="400px"></a>
+                    <a href="static/images/choco.jpg"><img src="static/images/choco.jpg" width="300px"></a>
                 </div>
             </div>
             <div class="information">
-                <div class="description_product">
-                    <p class="article_product">Артикул: ББ21407</p>
-                    <h1 class="title_product">Шоколад «Бабаевский» с карамельными криспи и кешью, 100 г</h1>
+                <div class="col">
+                    <div class="row">Артикул: ББ21407</div>
+                    <h1 class="row">Шоколад «Бабаевский» с карамельными криспи и кешью, 100 г</h1>
                     <div class="stars"><a href="#"><img src="static/images/stars.PNG"></a></div>
-                    <div class="char_price_product">
-                        <div class="price_and_btn">
+                    <div class="row">
+                        <div class="col">
                             <h1 class="price_product_text">149 ₽ / 1 шт</h1>
-                            <a href="#">Узнать о поступлении</a>
+                            <div class="btn_notice">
+                                <a href="#" class="notice_coming">Узнать о поступлении</a>
+                            </div>
                         </div>
-                        <div class="table_chars">
+                        <div class="table_product">
                             <table class="table_item">
                                 <thead>
                                     <tr>
@@ -194,14 +214,548 @@
                                         <td>Масса:</td>
                                         <td>100 г</td>
                                     </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td>
+                                            <span class="tooltip_structure">
+                                                <button class="tooltip_tog_structure" type="button">
+                                                    <a href="#" class="structure">Состав</a>
+                                                </button>
+                                                <span class="tooltip_text_structure">сахар, какао тертое, масло какао, ядро ореха кешью дробленое, карамельные криспи (карамель, сахароза, фруктоза, карамельный ароматизатор), эмульгаторы: лецитин соевый, Е476; спирт этиловый ректификованный, чай, ароматизаторы: «Еврованилин», «Карамель».  Массовая доля общего сухого остатка какао – не менее 40%. Содержание какао-продуктов – 55,6%.  Возможно наличие незначительного количества арахиса, орехов: миндаля, фундука, грецкого ореха, кедрового ореха; продуктов переработки молока, изюма, дробленых вафель, фруктовых кусочков, кокосовой стружки. Пищевая ценность на 100г продукта, г: белки 7,0; жиры 34,0; углеводы 49,0. Энергетическая ценность: 540 ккал.</span>
+                                            </span>
+                                        </td>
+                                    </tr>
                                 </tbody>
                             </table>
                         </div>
                     </div>
                 </div>
+                <div class="row">
+                    <div class="delivery_options">
+                            <div class="delivery_info">
+                                Доставка из Москвы, с 03.04.2025, от 240 руб.
+                            </div>
+                        <div class="col">
+                            <div class="delivery_variants">
+                                <label for="list_open" class="title_variants">
+                                    Все варианты доставки
+                                </label>
+                                <span class="tooltip">
+                                    <button class="tooltip_tog" type="button">
+                                        <div class="icon_questions">
+                                            <i class="fa fa-question-circle"></i>
+                                        </div>
+                                    </button>
+                                    <span class="tooltip_text">Стоимость доставки рассчитывается от общего веса вашей корзины.</span>
+                                </span>
+                            </div>
+                        </div>
+                        <input type="checkbox" id="list_open" class="list_open_options">
+                            <div class="list_of_text">
+                                <ul>
+                                    <li>Курьером, с 03.04.2025, от 468 руб.</li>
+                                    <li>Пункт выдачи, с 03.04.2025, от 240 руб.</li>
+                                </ul>
+                            </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <p class="title_of_intresting">Это интересно: 5 причин купить сладости в Аленке!
+                        <a href="#" class="link_of_intresting">Читать >>></a>
+                    </p>
+                </div>
+            </div>
+            </div>
+            <div class="row">
+                <ul class="tabs">
+                    <li class="tab_col">
+                        <a href="#description" class="description">Описание</a>
+                    </li>
+                    <li class="tab_col">
+                        <a href="#review" class="review">Отзывы покупателей</a>
+                    </li>
+                    <li class="tab_col">
+                        <a href="#certificate" class="certificate">Сертификаты</a>
+                    </li>
+                </ul>
+                <div class="description_text">
+                    Тёмный шоколад "Бабаевский" с карамельными криспи и кешью - новинка, достойная вашего внимания! Хрустящая карамель с орехами кешью - это гармоничное, насыщенное сочетание вкуса и идеальное дополнение к дружескому чаепитию.
+                    <br>Бабаевский - эксперт в тёмном шоколаде и вкусных добавках!
+                    <br>
+                    <br>
+                    <br>
+                    Производитель: ОАО Бабаевский.
+                    <br>Адрес: г. Москва, ул. Малая Красносельская, 7.
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container_recomended">
+        <div class="title_recomended"><h2>Рекомендуем товары по акции</h2></div>
+            <div class="row">
+                <div class="card col-12 col-sm-12 col-md-3 col-lg-2">
+                    <div class="s-card">
+                        <div class="s_card_img" data-qa="catalog_article">
+                            <a href="#"><img src="static/images/stol.jpeg" width="164px" height="164px"></a>
+                        </div>
+                        <div class="s_card_article">КО01828</div>
+                            <div class="s-card-body">
+                                <a href="#">Конфеты Столичные, Красный Октябрь</a>
+                                    <div class="s-card-body-price-title">
+                                        <span class="price_old">
+                                            <span>604</span>
+                                                ₽/0.2кг
+                                            </span>
+                                        <span class="price_now">
+                                            <span>272</span>
+                                                ₽/0.2кг
+                                        </span>
+                                    <div class="btn_cart">
+                                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+                <div class="card col-12 col-sm-12 col-md-3 col-lg-2">
+                    <div class="s-card">
+                        <div class="s_card_img" data-qa="catalog_article">
+                            <a href="#"><img src="static/images/strato.jpg" width="164px" height="164px"></a>
+                        </div>
+                        <div class="s_card_article">КО018048</div>
+                            <div class="s-card-body">
+                                <a href="#">Конфеты Стратосфера, Красный Октябрь</a>
+                                    <div class="s-card-body-price-title">
+                                        <span class="price_old">
+                                            <span>352</span>
+                                                ₽/0.2кг
+                                            </span>
+                                        <span class="price_now">
+                                            <span>176</span>
+                                                ₽/0.2кг
+                                        </span>
+                                    <div class="btn_cart">
+                                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+                <div class="card col-12 col-sm-12 col-md-3 col-lg-2">
+                    <div class="s-card">
+                        <div class="s_card_img" data-qa="catalog_article">
+                            <a href="#"><img src="static/images/bears.jpg" width="164px" height="164px"></a>
+                        </div>
+                        <div class="s_card_article">КО17110</div>
+                            <div class="s-card-body">
+                                <a href="#">Конфеты Мишка косолапый, Красный Октябрь, 200 гр.</a>
+                                    <div class="s-card-body-price-title">
+                                        <span class="price_old">
+                                            <span>466</span>
+                                                ₽/1шт
+                                            </span>
+                                        <span class="price_now">
+                                            <span>186</span>
+                                                ₽/1шт
+                                        </span>
+                                    <div class="btn_cart">
+                                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+                <div class="card col-12 col-sm-12 col-md-3 col-lg-2">
+                    <div class="s-card">
+                        <div class="s_card_img" data-qa="catalog_article">
+                            <a href="#"><img src="static/images/gallery.jpg" width="164px" height="164px"></a>
+                        </div>
+                        <div class="s_card_article">КО07676</div>
+                            <div class="s-card-body">
+                                <a href="#">Конфеты в коробке Ассорти Третьяковская галерея, Красный Октябрь</a>
+                                    <div class="s-card-body-price-title">
+                                        <span class="price_old">
+                                            <span>625</span>
+                                                ₽/1шт
+                                            </span>
+                                        <span class="price_now">
+                                            <span>313</span>
+                                                ₽/1шт
+                                        </span>
+                                        <div class="btn_cart">
+                                            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                        </div>
+                                    </div>
+                            </div>
+                    </div>
+                </div>
+                <div class="card col-12 col-sm-12 col-md-3 col-lg-2">
+                    <div class="s-card">
+                        <div class="s_card_img" data-qa="catalog_article">
+                            <a href="#"><img src="static/images/alenkachoco.jpg" width="164px" height="164px"></a>
+                        </div>
+                        <div class="s_card_article">ТК23868</div>
+                            <div class="s-card-body">
+                                <a href="#">Десерт Аленка с начинкой вкус шоколадка, 150 гр.</a>
+                                    <div class="s-card-body-price-title">
+                                        <span class="price_old">
+                                            <span>241</span>
+                                                ₽/1шт
+                                            </span>
+                                        <span class="price_now">
+                                            <span>96</span>
+                                                ₽/1шт
+                                        </span>
+                                        <div class="btn_cart">
+                                            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                        </div>
+                                    </div>
+                            </div>
+                    </div>
+                </div>
+                <div class="card col-12 col-sm-12 col-md-3 col-lg-2">
+                    <div class="s-card">
+                        <div class="s_card_img" data-qa="catalog_article">
+                            <a href="#"><img src="static/images/mask.png" width="164px" height="164px"></a>
+                        </div>
+                        <div class="s_card_article">РФ19191</div>
+                            <div class="s-card-body">
+                                <a href="#">Конфеты в коробке Маска с хрустящими вафлями, 300 гр.</a>
+                                    <div class="s-card-body-price-title">
+                                        <span class="price_old">
+                                            <span>394</span>
+                                                ₽/1шт
+                                            </span>
+                                        <span class="price_now">
+                                            <span>296</span>
+                                                ₽/1шт
+                                        </span>
+                                        <div class="btn_cart">
+                                            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                        </div>
+                                    </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+    <div class="container_fresh">
+        <div class="title_fresh"><h2>Свежая поставка</h2></div>
+            <div class="row">
+                <div class="card col-12 col-sm-12 col-md-3 col-lg-2">
+                    <div class="s-card">
+                        <div class="s_card_img" data-qa="catalog_article">
+                            <a href="#"><img src="static/images/wolf.jpg" width="164px" height="164px"></a>
+                        </div>
+                        <div class="s_card_article">ТК07914</div>
+                            <div class="s-card-body">
+                                <a href="#">Конфеты Тамбовский волк - Люкс </a>
+                                    <div class="s-card-body-price-title">
+                                        <span class="price_old">
+                                            <span>418</span>
+                                                ₽/0.2кг
+                                            </span>
+                                        <span class="price_now">
+                                            <span>376</span>
+                                                ₽/0.2кг
+                                        </span>
+                                    <div class="btn_cart">
+                                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+                <div class="card col-12 col-sm-12 col-md-3 col-lg-2">
+                    <div class="s-card">
+                        <div class="s_card_img" data-qa="catalog_article">
+                            <a href="#"><img src="static/images/stol.jpeg" width="164px" height="164px"></a>
+                        </div>
+                        <div class="s_card_article">КО01828</div>
+                            <div class="s-card-body">
+                                <a href="#">Конфеты Столичные, Красный Октябрь</a>
+                                    <div class="s-card-body-price-title">
+                                        <span class="price_old">
+                                            <span>604</span>
+                                                ₽/0.2кг
+                                            </span>
+                                        <span class="price_now">
+                                            <span>272</span>
+                                                ₽/0.2кг
+                                        </span>
+                                    <div class="btn_cart">
+                                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+                <div class="card col-12 col-sm-12 col-md-3 col-lg-2">
+                    <div class="s-card">
+                        <div class="s_card_img" data-qa="catalog_article">
+                            <a href="#"><img src="static/images/bears.jpg" width="164px" height="164px"></a>
+                        </div>
+                        <div class="s_card_article">КО17110</div>
+                            <div class="s-card-body">
+                                <a href="#">Конфеты Мишка косолапый, Красный Октябрь, 200 гр.</a>
+                                    <div class="s-card-body-price-title">
+                                        <span class="price_old">
+                                            <span>466</span>
+                                                ₽/1шт
+                                            </span>
+                                        <span class="price_now">
+                                            <span>186</span>
+                                                ₽/1шт
+                                        </span>
+                                    <div class="btn_cart">
+                                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+                <div class="card col-12 col-sm-12 col-md-3 col-lg-2">
+                    <div class="s-card">
+                        <div class="s_card_img" data-qa="catalog_article">
+                            <a href="#"><img src="static/images/south_night.jpg" width="164px" height="164px"></a>
+                        </div>
+                        <div class="s_card_article">КО06026</div>
+                            <div class="s-card-body">
+                                <a href="#">Конфеты Южная ночь, Красный Октябрь</a>
+                                    <div class="s-card-body-price-title">
+                                        <span class="price_old">
+                                            <span>242</span>
+                                                ₽/0.2кг
+                                            </span>
+                                        <span class="price_now">
+                                            <span>97</span>
+                                                ₽/0.2кг
+                                        </span>
+                                        <div class="btn_cart">
+                                            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                        </div>
+                                    </div>
+                            </div>
+                    </div>
+                </div>
+                <div class="card col-12 col-sm-12 col-md-3 col-lg-2">
+                    <div class="s-card">
+                        <div class="s_card_img" data-qa="catalog_article">
+                            <a href="#"><img src="static/images/raish.jpg" width="164px" height="164px"></a>
+                        </div>
+                        <div class="s_card_article">РФ06136</div>
+                            <div class="s-card-body">
+                                <a href="#">Драже Изюм в шоколадной глазури, Рот Фронт, 125 гр.</a>
+                                    <div class="s-card-body-price-title">
+                                        <span class="price_old">
+                                            <span>138</span>
+                                                ₽/1шт
+                                            </span>
+                                        <span class="price_now">
+                                            <span>69</span>
+                                                ₽/1шт
+                                        </span>
+                                        <div class="btn_cart">
+                                            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                        </div>
+                                    </div>
+                            </div>
+                    </div>
+                </div>
+                <div class="card col-12 col-sm-12 col-md-3 col-lg-2">
+                    <div class="s-card">
+                        <div class="s_card_img" data-qa="catalog_article">
+                            <a href="#"><img src="static/images/cognac.jpg" width="164px" height="164px"></a>
+                        </div>
+                        <div class="s_card_article">ЯП24671</div>
+                            <div class="s-card-body">
+                                <a href="#">Шоколадные бутылочки с коньяком</a>
+                                    <div class="s-card-body-price-title">
+                                        <span class="price_old">
+                                            <span>404</span>
+                                                ₽/0.2кг
+                                            </span>
+                                        <span class="price_now">
+                                            <span>364</span>
+                                                ₽/0.2кг
+                                        </span>
+                                        <div class="btn_cart">
+                                            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                        </div>
+                                    </div>
+                        </div>
+                </div>
             </div>
         </div>
     </div>
 </main>
+
+<footer>
+    <div class="footer_container">
+        <div class="footer_container_info">
+            <div class="footer_logo">
+                <a href="#"><img src="static/images/logo_footer.png" width="80px" height="40px"></a>
+            </div>
+            <div class="footer_info">
+                <div class="about">
+                    <p class="about_title">О компании</p>
+                    <ul>
+                        <li><a href="#">История</a></li>
+                        <li><a href="#">Новости</a></li>
+                        <li><a href="#">Статьи</a></li>
+                    </ul>
+                </div>
+                <div class="vacancies">
+                    <p class="vac_title">Вакансии</p>
+                </div>
+                <div class="social_links">
+                    <p>Социальные сети</p>
+                    <ul class="social_list">
+                        <li class="social_li">
+                            <a href="#" class="item_social_link">
+                                <img src="static/images/vk_social_network_logo_679eewj5emft.svg" width="16px" height="16px">
+                            </a>
+                        </li>
+                        <li class="social_li">
+                            <a href="#" class="item_social_link">
+                                <img src="static/images/youtube_logo_w2n5dvf7p1br.svg" width="16px" height="16px">
+                            </a>
+                        </li>
+                        <li class="social_li">
+                            <a href="#" class="item_social_link">
+                                <img src="static/images/ok.svg" width="16px" height="16px">
+                            </a>
+                        </li>
+                        <li class="social_li">
+                            <a href="#" class="item_social_link">
+                                <img src="static/images/telegram_logo_88nqim2ujuw9.svg" width="16px" height="16px">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="legal_entity">
+                    <a href="#">Юридическим лицам</a>
+                </div>
+                <div class="rent">
+                    <a href="#">Аренда</a>
+                </div>
+                <div class="franshize">
+                    <a href="#">Франшиза</a>
+                </div>
+                <div class="for_customers">
+                    <p>Покупателям</p>
+                    <ul class="customers_list">
+                        <li class="customers_li">
+                            <a href="#" class="item_customers_link">Доставка и оплата</a>
+                        </li>
+                        <li class="customers_li">
+                            <a href="#" class="item_customers_link">Возврат товара</a>
+                        </li>
+                        <li class="customers_li">
+                            <a href="#" class="item_customers_link">Помощь</a>
+                        </li>
+                        <li class="customers_li">
+                            <a href="#" class="item_customers_link">Договор оферты</a>
+                        </li>
+                        <li class="customers_li">
+                            <a href="#" class="item_customers_link">Политика конфиденциальности</a>
+                        </li>
+                        <li class="customers_li">
+                            <a href="#" class="item_customers_link">Программа лояльности</a>
+                        </li>
+                        <li class="customers_li">
+                            <a href="#" class="item_customers_link">Подарочные сертификаты</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="adresses">
+                    <a href="#">Адреса магазинов</a>
+                </div>
+                <div class="security_purshase">
+                    <p>Безопасность покупок</p>
+                    <div class="bank_system">
+                        <a href="#" class="bank_system_link">
+                            <img src="static/images/visa.svg" width="45px" height="45px">
+                        </a>
+                        <a href="#" class="bank_system_link">
+                            <img src="static/images/mastercard.svg" width="45px" height="45px">
+                        </a>
+                        <a href="#" class="bank_system_link">
+                            <img src="static/images/mir.svg" width="45px" height="45px">
+                        </a>
+                    </div>
+                </div>
+                <div class="us_products">
+                    <p>Продукция</p>
+                    <ul class="products_list">
+                        <li class="products_li">
+                            <a href="#" class="item_products_link">Аленка</a>
+                        </li>
+                        <li class="products_li">
+                            <a href="#" class="item_products_link">Рот Фронт</a>
+                        </li>
+                        <li class="products_li">
+                            <a href="#" class="item_products_link">Любимые с детства</a>
+                        </li>
+                        <li class="products_li">
+                            <a href="#" class="item_products_link">Сладкие Истории</a>
+                        </li>
+                        <li class="products_li">
+                            <a href="#" class="item_products_link">Коровка</a>
+                        </li>
+                        <li class="products_li">
+                            <a href="#" class="item_products_link">Обожайка</a>
+                        </li>
+                        <li class="products_li">
+                            <a href="#" class="item_products_link">Красный Октябрь</a>
+                        </li>
+                        <li class="products_li">
+                            <a href="#" class="item_products_link">Felicita</a>
+                        </li>
+                        <li class="products_li">
+                            <a href="#" class="item_products_link">Вдохновение</a>
+                        </li>
+                        <li class="products_li">
+                            <a href="#" class="item_products_link">Neo-botanica</a>
+                        </li>
+                        <li class="products_li">
+                            <a href="#" class="item_products_link">Русский шоколад</a>
+                        </li>
+                        <li class="products_li">
+                            <a href="#" class="item_products_link">Бабаевский</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="contacts">
+                    <h3 class="title_contacts">Контакты</h3>
+                    <a href="#" class="phone_num_contacts">7 937 739 3225</a>
+                    <a href="#" class="callback_link">Заказать обратный звонок</a>
+                    <p class="worktime_contacts">Ежедневно с 09:00 до 21:00</p>
+                    <ul class="contacts_list">
+                        <li class="contacts_item">
+                            <a href="#" class="contacts_link">Реквизиты</a>
+                        </li>
+                        <li class="contacts_item">
+                            <a href="#" class="contacts_link">Обратная связь</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="providers">
+                    <a href="#">Поставщикам</a>
+                </div>
+                <div class="subscribe">
+                    <p>Подписка на рассылку</p>
+                    <form class="wrapper">
+                        <input class="input_email" placeholder="Электронная почта" type="email">
+                        <button class="btn_input">
+                            <svg fill="none" id="arrow" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m11.293 17.293 1.414 1.414 6.707-6.707-6.707-6.70703-1.414 1.414 4.293 4.29303h-9.586v2h9.586z" fill="rgb(0,0,0)"/></svg>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
 </body>
 </html>
